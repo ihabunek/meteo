@@ -44,6 +44,8 @@ function setRegion(region) {
     });
 
     showChart(0);
+
+    $("#slider").focus();
 };
 
 function showChart(index) {
