@@ -15,7 +15,7 @@ var regions = {
 };
 
 function imageUrl(region, time) {
-    return aladinBase + "web_uv10_" + region + "_" + (time < 10 ? '0' + time : time) + "_e.gif";
+    return aladinBase + "web_uv10_" + region + "_" + (time < 10 ? '0' + time : time) + ".png";
 };
 
 function imageUrls(region) {
